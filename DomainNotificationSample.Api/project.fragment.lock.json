@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "exports": {
+    "DomainNotificationSample.Data/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/DomainNotificationSample.Data.dll": {}
+      },
+      "runtime": {
+        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.dll": {},
+        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll": {},
+        "bin/Debug/DomainNotificationSample.Data.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/DomainNotificationSample.Data.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "DomainNotificationSample.Domain/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/DomainNotificationSample.Domain.dll": {}
+      },
+      "runtime": {
+        "../packages/DomainNotificationHelperCore.1.0.2/lib/net452/DomainNotificationHelperCore.dll": {},
+        "bin/Debug/DomainNotificationSample.Domain.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/DomainNotificationSample.Domain.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "DomainNotificationSample.Services/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/DomainNotificationSample.Services.dll": {}
+      },
+      "runtime": {
+        "../packages/DomainNotificationHelperCore.1.0.2/lib/net452/DomainNotificationHelperCore.dll": {},
+        "bin/Debug/DomainNotificationSample.Services.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/DomainNotificationSample.Services.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}
